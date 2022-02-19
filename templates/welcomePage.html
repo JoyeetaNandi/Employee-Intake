@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='welcomePage.css') }}">
+	<style>
+		body{
+			background: gainsboro;
+			font-family: Arial;
+		}
+	</style>
+</head>
+<body>
+	<div class = "contents">
+	<P>
+	<h2 style="font-family: Arial;">SAWRO Immigrant Services</h2>
+	<h2 style="font-family: Arial;">"If the women move forward, the whole community will move forward"</h2>
+</P>
+</div>
+
+<hr>
+
+<div class = "body-features">
+	<button class = "button1"> View Profiles </button>
+	<form action = "/viewProfilePage"><button class = "button2"> Member Profile </button></form>
+	<form action = "/viewOrganizationPage"><button class = "button2"> Organization Contacts </button></form>
+	<button class = "button1"> View Services </button>
+	<form action = "/display-all-employment-services"><button class = "button2"> Employment Services </button></form>
+	<form action = "/display-all-settlement-services"><button class = "button2"> Settlement Services </button></form>
+	<form action="/view-training-series"><button class = "button2"> Training Series </button></form>
+	<form action= "/view-events"><button class = "button1"> View Events </button></form>
+	<form action="/view-follow-ups"><button class = "button1"> View Follow-ups </button></form>
+	<form action="/show-report"><button class = "button1"> Reporting </button></form>
+	<form action="/export-data"><button class = "button1"> Export Data </button></form>
+	<button class = "button1"> View Account Activities </button>
+	<button class = "button1"> Logout </button>
+</div>
+</body>
+</html>

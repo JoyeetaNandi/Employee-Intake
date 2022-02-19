@@ -1,0 +1,92 @@
+#allBody{
+	background-color:rgb(224, 212, 212);
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#header{
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;		
+}
+
+
+.container-fluid h3{
+	font-style:italic;
+	
+}
+
+
+.container hr{
+	position: relative;    
+    border: none;
+    height: 4px;
+    background: black;
+    margin-bottom: 30px;
+    color: #191970;
+}
+.btn.btn-block {
+	border: 2px solid black;
+	color: white;	
+	cursor: pointer;
+	width: 100%;	
+	border-radius: 8px;
+	margin-bottom: 0.3em;
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: bold;	
+}
+#addNewSessionForm, #seePastSessionsForm, #trainingInfoBtnForm{
+	margin: 2% 0% 3% 10%;
+}
+#training-name{
+	text-align:center;
+}
+#trainingInfoBtn{
+	width:100%;
+}
+#seePastSessions{
+	width:100%;
+}
+#addNewSession{
+	width:100%;
+}
+.btn.btn-block.disabled {
+	background-color: #000080;
+}
+.btn.btn-block.active {
+	background-color: #483D8B;
+}
+
+.btn.btn-block:hover{
+background-color: #008CBA;
+color: white;
+}
+.col-sm-9{	
+	/*border: 3px solid black;
+	background-color: #D3D3D3;	*/
+	font-size: 14px;
+}
+#pastSessionsList{
+	border: 3px solid black;
+	background-color: #D3D3D3;
+}
+.col-sm-9 h4{
+	text-align:center;			
+}
+
+.btn.btn-outline-dark.disabled{
+	color:black;	
+	border-width:thick;
+	font-weight:bold;
+}
+#formContainer{
+	border: 3px solid black;		
+	font-size: 14px;
+	margin-top:2%;
+	background-color: #D3D3D3;
+}
+/*---------------------------------------------------------------*/
+#attendeesList{
+	border: 3px solid black;
+	margin-top:2%;
+}

@@ -1,0 +1,42 @@
+<!--{% extends 'base.html' %}
+{% include 'header.html' %} 
+{% block title %}  {% endblock %}-->
+{% block body %}
+
+        <button class="btn btn-block disabled">View Profiles</button>
+        <form action="/viewProfilePage">
+            <button class="btn btn-block active">Member Profile</button>
+        </form>
+        <form action="/viewOrganizationPage">
+            <button class="btn btn-block active">Organization Contacts</button>
+        </form>
+
+        <button class="btn btn-block disabled">View Services</button>
+
+        <form action="/display-all-employment-services">
+            <button class="btn btn-block active">Employment Services</button>
+        </form>
+
+        <form action="/display-all-settlement-services">
+            <button class="btn btn-block active">Settlement Services</button>
+        </form>
+
+        <form action="/view-training-series">
+            <button class="btn btn-block active">Training Series</button>
+        </form>
+
+        <form action="/view-evens">
+            <button class="btn btn-block disabled">View Events</button>
+        </form>
+        <form action="/view-follow-ups">
+            <button class="btn btn-block disabled">View Follow-ups</button>
+        </form>
+        <form action="/show-report">
+            <button class="btn btn-block active">Reporting</button>
+        </form>
+        <form action="/export-data">
+        <button class="btn btn-block disabled">Export Data</button>
+        </form>
+        <button class="btn btn-block disabled">View Account Activities</button>
+   
+{% endblock %}
